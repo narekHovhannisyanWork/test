@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "allowImportingTsExtensions": true,
+        "strict": true,
+        "module": "CommonJS",
+        "target": "es2017",
+        "baseUrl": "./",
+        "paths": {
+            "#*": [
+                "./src/*"
+            ]
+        },
+        "esModuleInterop": true,
+        "allowJs": true,
+        "checkJs": true,
+        "noEmit": true,
+        "skipLibCheck": true
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "src/**/*.test.*",
+        "src/**/*.spec.*"
+    ]
+}
